@@ -42,7 +42,7 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/yourusername/BinaryTrees.git
+git clone https://github.com/GowdaHemannth/BinaryTrees.git
 
 Open the project in your Java IDE.
 
