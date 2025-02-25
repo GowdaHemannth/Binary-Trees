@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+// Here we are going to Print Left Side of the tree;
 public class Left{
     static class Node{
         int Data;
@@ -8,22 +8,28 @@ public class Left{
         Node Left;
         public Node(int Data){
             this.Data=Data;
-            this.Left=Left;
-            this.Right=Right;
+            this.Left=null;
+            this.Right=null;
         }
 
         
     }
-    public static void LeftView(List<Node> A ,Node root){
+    public static void LeftView(List<Node> A ,Node root,int k){
         if(root==null){
             return ;
         }
-     A.add(root);
-     LeftView(A, root.Left);
+     if(A.size()==k){
+        A.add(root);
+
+        LeftView(A, root.Left,k+1);
+        LeftView(A, root.Right, k);  
+
+     }
+    
     }
     public static List<Node> function(Node root) {
         List<Node> A = new ArrayList<>();
-        LeftView(A,root);
+        LeftView(A,root,0);
         return A;
     }
     public static void main(String[] args) {

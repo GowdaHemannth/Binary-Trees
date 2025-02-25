@@ -18,10 +18,10 @@ public static boolean isIdentical(Node root,Node Subroot){
         return false;
     }
 
-    if(!isIdentical(root, Subroot)){
+    if(!isIdentical(root.Left, Subroot)){
         return false;
     }
-    if(isIdentical(root, Subroot)){
+    if(isIdentical(root.Right, Subroot)){
         return false;
     }
 return true;
