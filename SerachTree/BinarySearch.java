@@ -11,7 +11,7 @@ public class BinarySearch {
 
     public static Node insert(Node root, int val) {
         if (root == null) {
-            root= new Node(val);
+           root= new Node(val);
             return root;
         }
         if (root.data > val) {
