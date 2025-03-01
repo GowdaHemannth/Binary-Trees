@@ -23,6 +23,7 @@ public static Node insert(Node root, int val) {
     }
     return root;
 }
+// Cheking Whther the tree is Valid Or Not
 public static boolean isValidBST(Node root,Node min,Node max){
     if(root==null){
         return true;
