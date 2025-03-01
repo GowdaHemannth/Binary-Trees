@@ -37,8 +37,8 @@ public class Path {
             if(root.left==null&&root.right==null){
                 Print(path);
             }
-            PrinttoLeaf(root.left, new ArrayList<>(path));
-            PrinttoLeaf(root.right, new ArrayList<>(path));
+            PrinttoLeaf(root.left, path);
+            PrinttoLeaf(root.right, path);
             path.remove(path.size()-1);
         }
     public static void main(String[] args) {
