@@ -1,5 +1,7 @@
 public class PreOrder{
-    // Here We are Building The Preorder Traversel Tree ;
+    // Thes ejust for the Undetanding Purpose of the Trees Verion 
+    
+    // Here We are Building The Preorder Traversel Tree 
     static class Node{
         int Data;
         Node Left;
