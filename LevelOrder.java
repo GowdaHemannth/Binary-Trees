@@ -45,8 +45,8 @@ public class LevelOrder {
                     if (Q.isEmpty()) {
                         break;
                     } else {
-                        Q.add(null); // Here we might be Having the Doubt Has Why do we need to 
-                        // Know since Queu is First in First out So Here thes estep usefull 
+                        Q.add(null); // Here we might be Having the Doubt Has Why do we need to
+                        // Know since Queu is First in First out So Here thes estep usefull
                     }
 
                 } else {

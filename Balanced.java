@@ -10,7 +10,6 @@ class Node {
     }
 }
 
-
 public class Balanced {
 
     public boolean IsBalanced(Node root) {
