@@ -20,9 +20,11 @@ public class Left{
         }
      if(A.size()==k){
         A.add(root);
-
+                                                             // IF(A.SIZE==K)
+                                                             // A.ADD(ROOT.DATA)
         LeftView(A, root.Left,k+1);
-        LeftView(A, root.Right, k);  
+        LeftView(A, root.Right, k);        // FOR RIGHT VIEW RIGHTVIEW(A,ROOT.RIGHT,K+1)
+                                            //               RIGHTVIEW(A,ROOT.LEFT,K)
 
      }
     

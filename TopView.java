@@ -46,7 +46,8 @@ public class TopView {
                 }
                 if(Curr.node.Left!=null){
                     Q.add(new info(Curr.node.Left,Curr.HD-1));
-                    min=Math.min(min, Curr.HD-1);
+                    min=Math.min(min, Curr.HD-1); // HERE WE MIGHT BE WONDERING WHATS THE USE HERE 
+              // SINCE MAP DOEANT ALOOW US TO VIEW IN A SYSTEMATIC WAY SO WE USE MIN AND MAX FOR THE SUPPORT FOR TRAVERSEL      
                 }
                 if(Curr.node.Right!=null){
                     Q.add(new info(Curr.node.Right,Curr.HD+1));

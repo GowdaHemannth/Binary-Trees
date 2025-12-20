@@ -1,12 +1,17 @@
 public class Diameter{
     // Here We are Going to Find Diameter of the tree ;
+
+    // Another Approach is Just 
+    // Step1 Find leftHieght And Right Hieght  
+    // the comapare maxi= Math.max(maxi,lh+rh+1)
+    // Since maxi is GLobal varible we can Acces the Maxi then you can get the Maxi -->>>TC IS O N*N
     static class Node{
         int Data;
         Node Left;
         Node Right;
         public Node(int Data){
             this.Data=Data;
-            this.Left=null;
+            this.Left=null; 
             this.Right=null;
         }
     }
