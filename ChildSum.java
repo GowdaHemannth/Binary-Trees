@@ -1,4 +1,4 @@
-public class SumChild {
+public class ChildSum {
     static class Node{
         int data;
         Node left;
@@ -9,6 +9,12 @@ public class SumChild {
             this.right=null;
         }
     }
+    // Here in these Numerical At First You Need to Trace first 
+    // Step 1 if root.left null add to the chid same thing applies for for Both RIght And Left Child 
+    // Step 2 For add Node Values to Chld if child greater than Parent then root beacomes as of child 
+    // step 3 if not then childs will ge the Values of Parent
+
+    // --->>>>> HERE IS ONLY WE FALSS MOSTLY BECOMES HERE WE NEED TO TRACE BACK THEN ONCE DO THE DRY RUN DOUBTS WILL BE CLEARED 
     public static void ChildSumProperty(Node root){
         if(root==null){
             return;
