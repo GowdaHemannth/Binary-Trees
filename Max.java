@@ -31,9 +31,9 @@ public class Max {
             int Last=0;
             int First =0;
             int size=Q.size();
-
+             int min=Q.peek().HD;
             for(int i=0;i<size;i++){
-                int curr_id=Q.peek().HD;
+                int curr_id=Q.peek().HD-min;
                 Node p=Q.remove().node;
                 if(i==0){
                     First=curr_id;

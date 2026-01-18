@@ -34,7 +34,8 @@ public class BinarySearch {
         int val[] = {5, 1, 3, 4, 2, 7};
         Node root = null;
         for (int i = 0; i < val.length; i++) {
-            root = insert(root, val[i]);  // Update root after insertion
+            // Here   We Might Be Thinking Like Is it the value rootshould be Null Evryttime Post But Actualy Reality Is it points to first root that is 5 
+            root = insert(root, val[i]);  // Update root after insertion Here we Might Be thinking Like 
         }
 
         // Print inorder traversal (should be sorted)
