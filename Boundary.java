@@ -32,7 +32,7 @@ public class Boundary {
             }else{
         //                1
       // /               /
-     //                 2   -->> These IS teh Reason 
+     //                 2   -->> These IS the Reason 
             //           \
       //                    3 
                       

@@ -42,6 +42,8 @@ public class ZigZag {
                
             }
             Ans.add(A);
+            // Here After the For Loop Ends These Condition Comes Here 
+            leftToRight = !leftToRight; // ✅ THIS was missing
         }
         return Ans;
     }

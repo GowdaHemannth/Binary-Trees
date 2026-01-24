@@ -53,8 +53,8 @@ public class NewNumerical {
 
 
         }
-        return root;
-
+        return root;  // Here I will be returning the Root value Only
+ 
         
     }
     public static void main(String[] args) {
